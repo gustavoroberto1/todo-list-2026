@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #222222;
+}
+
+.container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px;
+}
+
+button {
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #a8dfff;
+    border: 3px solid #333333;
+}
+
+.ajuda {
+    font-size: 14px;
+}
